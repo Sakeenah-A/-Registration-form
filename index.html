@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <link rel="stylesheet" href="/-Registration-form/index.css">
+</head>
+<body>
+    <div class="general">
+    <h1>Registration form</h1>
+    <p>please fill out this form with the required information</p>
+    <form>
+    <div>
+        <label for="name">Enter your first name:
+           <br> <input type="text" name="firstname" value="" class="first">
+        </label>
+        <br><label for="name">Enter your last name:
+            <br> <input type="text" name="lastname" value="" class="first">
+         </label>
+        <br> <label for="name">Enter your email:
+            <br> <input type="email" name="email" value="" class="first">
+         </label>
+          <br><label for="name">Create a new password:
+            <br> <input type="password" name="password" value="" class="first">
+         </label>
+    </div>
+
+         <hr>
+         <input type="radio" name="account" value="">
+         <label for="account">Personal account</label>
+
+       <br> <input type="radio" name="account" value="">
+        <label for="account">Business account</label>
+
+        <br><input type="checkbox" name="terms" value="">
+        <label for="terms">I accept the <a href="#">terms and conditions</a></label>
+        <hr>
+
+        <label for="name">Upload a profile picture:
+            <div class="file">
+            <br> <input type="file" name="myfile" value="" class="first">
+            </div>
+         </label>
+
+        <br> <label for="age">input your age(years):
+            <br> <input type="number" min="18" max="40" name="age" value="" class="first">
+         </label>
+
+        <br> <label for="name">How did you hear about us:
+          <br>  <select name="about us"  class="second">
+            <option value="">(select one)</option>
+                <option value="app">whatsapp</option>
+                <option value="app">Facebook</option>
+                <option value="app">Instagram</option>
+                <option value="app">Twitter</option>
+            </select>
+            </label>
+
+            <br><label for="bio">Provide a bio:
+                <br><textarea name="bio"  cols="30" rows="10" class="text" placeholder="I love coding"></textarea>
+            </label>
+
+           <br> <input type="submit" class="submit">
+    </form>
+    </div>  
+</body>
+</html>
